@@ -1,0 +1,174 @@
+@media only screen and (max-width: 600px) {
+    .apphome {
+  background-color:white;
+  background-image:none;
+}
+.homebox{
+  top:250px;
+  left:10px;
+}
+}
+
+.apphome{
+  background-image: url('2-1.jpg') ;
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: 1500px 350px;;
+  height:350px;
+  width:1000%;
+  top:50px;
+  left:0px;
+  position:absolute;
+}
+
+.homebox{
+  position:absolute;
+  top:250px;
+  left:300px;
+  background-color:rgba(255,255,255, 0.5);
+  border-radius: 5px;
+border-left: 14px solid #f39c12;
+  padding-right:10px
+  filter: alpha(opacity=50);
+}
+.homebox:hover{
+background-color:rgba(255,255,255);
+}
+.homebox h1{
+color:black;
+font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+} 
+.homenav{
+
+margin-top:400px;
+margin-left:300px;
+}
+.swimhome{
+ background-image: url('swim.jpg') ;
+background-color:black;
+background-repeat: no-repeat;
+background-size: 1500px 300px;;
+height:300px;
+width:1000%;
+top:50px;
+left:0px;
+position:absolute;
+border-radius: 5px;
+border-bottom: 14px solid #dd4b39;
+}
+.raidhome{
+ background-image: url('run.jpg') ;
+background-color:black;
+background-repeat: no-repeat;
+background-size: 1500px 300px;;
+height:300px;
+width:1000%;
+top:50px;
+left:0px;
+position:absolute;
+border-radius: 5px;
+border-bottom: 14px solid #dd4b39;
+}
+.competition{
+  background-image: url('Raids adulte.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 1900px 320px;;
+  height:300px;
+  width:1000%;
+  top:-15px;
+  left:-20px;
+  position:relative;
+ 
+}
+.stats{
+  background-image: url('Raid.jpg') ;
+  background-repeat: no-repeat;
+  background-size: 1900px 320px;;
+  height:300px;
+  width:1000%;
+  top:-15px;
+  left:-20px;
+  position:relative;
+}
+.swimhomebox{
+position:absolute;
+
+width:60%;
+height:90%;
+top:300px;
+}
+.swimhomebox-title{
+  position:absolute;
+  height:300px;
+  border-radius: 5px;
+  padding-right:10px;
+  -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 3s;    
+  animation-fill-mode: forwards;
+
+}
+@keyframes example {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+.swimhomebox-title h1{
+  
+  font-family: 'Lobster', cursive;
+  text-transform: none;
+  text-align: center;
+  color: white;
+  font-size: 38px;
+  padding-bottom: 0;
+  line-height: 1.5em;
+}
+.bg{
+background-color:red;
+}
+.text-container{
+  position:relative;
+  height:auto;
+  margin-left:20px;
+  background-color:rgba(255,255,255, 0.5);  
+  filter: alpha(opacity=50);
+  margin-top:50px;
+  padding:9px;
+  width:600px;
+  border-left: 14px solid #dd4b39; 
+
+}
+.text-container-raid{
+ position:relative;
+  height:auto;
+margin-left:20px;
+background-color:rgba(255,255,255, 0.5);  
+filter: alpha(opacity=50);
+margin-top:50px;
+padding:9px;
+width:690px;
+border-left: 14px solid #dd4b39; 
+}
+.text-container p{
+  line-height: 1.3em !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+.text-container-raid p{
+  line-height: 1.3em !important;
+font-weight: 600 !important;
+font-size: 18px;
+}
+.swimnav{
+  position:absolute;
+  margin-top:350px;
+  display:block;
+  margin-left:700px;
+width:100%
+ 
+}
+/* navbar-top */
+.navbar-static-top{position=fixed;z-index=100000}
